@@ -1,0 +1,32 @@
+{
+  "name": "gulp-read-file",
+  "version": "0.0.1",
+  "description": "Read the file and set its contents",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miguelrjim/gulp-read-file.git"
+  },
+  "author": {
+    "name": "Miguel Jimenez",
+    "email": "miguel.ricardo.jimenez.gomez@gmail.com",
+    "url": "https://github.com/miguelrim"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  }
+}
