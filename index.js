@@ -11,6 +11,7 @@ function readFile(options) {
 			if(!file.isNull()) {
 				this.push(file);
 				cb();
+				return;
 			}
 			var that = this;
 			// Read the file and set its contents
